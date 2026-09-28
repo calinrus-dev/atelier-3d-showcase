@@ -1,0 +1,8 @@
+{
+  "name": "atelier-3d-public-sample",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}

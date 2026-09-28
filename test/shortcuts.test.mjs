@@ -1,0 +1,12 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {commands,defaultBindings,keyChord,matches,bindingError} from '../samples/shortcuts.js';
+const event=(key,mods={})=>({key,code:'',ctrlKey:false,metaKey:false,shiftKey:false,altKey:false,...mods});
+test('every default command has a unique chord',()=>assert.equal(new Set(Object.values(defaultBindings)).size,commands.length));
+test('modifier-only key events never become a command',()=>{for(const key of ['Control','Meta','Alt','Shift','AltGraph'])assert.equal(keyChord(event(key)),'');});
+test('macOS Meta and Control map to the same product binding',()=>{assert.equal(keyChord(event('s',{metaKey:true})),'Ctrl+S');assert.equal(keyChord(event('s',{ctrlKey:true})),'Ctrl+S');});
+test('plus and minus normalize numpad and shifted forms',()=>{assert.equal(keyChord(event('=',{shiftKey:true})),'+');assert.equal(keyChord(event('_',{shiftKey:true})),'-');assert.equal(keyChord(event('Add',{code:'NumpadAdd'})),'+');});
+test('redo alias works only while default binding is retained',()=>{const e=event('z',{ctrlKey:true,shiftKey:true});assert.ok(matches(e,'redo',defaultBindings));assert.equal(matches(e,'redo',{...defaultBindings,redo:'Ctrl+J'}),false);});
+test('navigation and browser commands cannot be rebound',()=>{for(const chord of ['Tab','ArrowLeft','Alt+F4','Ctrl+W','F5','Backspace'])assert.ok(bindingError('save',chord,defaultBindings));});
+test('conflict identifies the occupied command; the current binding stays valid',()=>{assert.match(bindingError('save','Ctrl+Z',defaultBindings),/Deshacer/);assert.equal(bindingError('save','Ctrl+S',defaultBindings),null);});
+test('a complete map permits a legitimate swap',()=>{const swapped={...defaultBindings,save:'Ctrl+Z',undo:'Ctrl+S'};assert.equal(bindingError('save',swapped.save,swapped),null);assert.equal(bindingError('undo',swapped.undo,swapped),null);});

@@ -1,67 +1,46 @@
-![Atelier 3D — Diseña. Recorre. Presenta. Entrega.](assets/hero.svg)
+# Atelier 3D / Diseñar. Recorrer. Entregar.
 
-# Atelier 3D
+**Mi producto principal. Aplicación de escritorio 1.0, disponible bajo licencia.** Un espacio no termina cuando queda bonito en el visor: hay que recorrerlo, presentarlo, medirlo y entregarlo. Atelier reúne ese recorrido en una misma herramienta.
 
-**Diseña. Recorre. Presenta. Entrega.**
+**Tauri · Rust · React · TypeScript · WebGL**
 
-Un producto de escritorio para diseñar espacios 3D y convertirlos en experiencias navegables y entregables: imágenes, vídeo, planos PDF a escala y mediciones. La versión 1.0 está terminada y dispone de emisión y renovación de licencias.
+![Editor real de Atelier 3D, con escena, jerarquía y panel de propiedades.](assets/editor-real.png)
 
-**Stack:** TypeScript · React · Rust · Tauri · WebGL  
-**Estado:** Producto de escritorio 1.0 · Disponible bajo licencia
+## De la escena a lo que se lleva el cliente
 
-[Portfolio](https://github.com/calinrus-dev/portfolio) · [Experiencia](docs/EXPERIENCIA.md) · [Componentes](docs/COMPONENTES.md) · [Diseño técnico](docs/ARQUITECTURA.md) · [Demostraciones](docs/DEMOSTRACIONES.md) · [Estado](docs/ESTADO.md)
+Espacios y piezas, materiales PBR e iluminación, edición por herramientas, recorridos y visitas por capítulos. La entrega continúa con imágenes, vídeo 1080p, planos PDF vectoriales a escala y mediciones CSV. La versión 1.0 incluye emisión y renovación de licencias.
 
-## El problema que aborda
+[Ver capturas y resultados reales](docs/DEMOSTRACIONES.md) · [Alcance de la entrega](docs/ESTADO.md)
 
-Una propuesta espacial necesita resolver tanto el trabajo de diseño como su presentación y entrega. Atelier 3D reúne esos momentos en un estudio de escritorio: construir el espacio, darle ambiente, recorrerlo y preparar material que permita explicarlo.
+## Una pieza real que puedes examinar
 
-## Qué compone la experiencia
+**El mapa de atajos del editor está publicado.** Normalización de teclas, alias, reservas de navegación y detección de conflictos. Es una pieza pequeña, pero está donde se nota el oficio: repetir una acción cientos de veces sin pelearse con la interfaz.
 
-- **Diseño de espacios.** Estancias, objetos, referencias a escala y acabados para construir la propuesta.
-- **Presentación 3D.** Materiales, iluminación y recorridos con capítulos y puntos de visita.
-- **Entrega multiformato.** Imágenes, vídeo 1080p, planos PDF a escala y mediciones CSV.
-- **Producto bajo licencia.** Aplicación de escritorio 1.0 con emisión y renovación de licencias.
+[**Probar el componente en el navegador →**](https://calinrus-dev.github.io/atelier-3d-showcase/) · [Leer el código](samples/shortcuts.js) · [Casos de prueba](test/shortcuts.test.mjs)
 
-![Mapa conceptual de Atelier 3D: Diseñar el espacio → Construir el ambiente → Recorrer la propuesta → Entregar la presentación.](assets/experiencia.svg)
 
-*Lámina explicativa con datos ficticios. Su contenido también está disponible como texto en [Componentes](docs/COMPONENTES.md).*
+[![Pruebas de la muestra](https://github.com/calinrus-dev/atelier-3d-showcase/actions/workflows/verify.yml/badge.svg)](https://github.com/calinrus-dev/atelier-3d-showcase/actions/workflows/verify.yml)
 
-## Galería real
 
-![Editor real de Atelier 3D con el salón de muestra, revisado el 28 de septiembre de 2026.](assets/editor-real.png)
+~~~sh
+node --test test/*.test.mjs
+~~~
 
-*Editor real de Atelier 3D con el salón de muestra, revisado el 28 de septiembre de 2026.*
+Prueba a asignar **Ctrl+Z a Guardar**: debe detectar Deshacer. Una reasignación no puede conservar un alias antiguo por sorpresa. Una combinación de navegación tampoco debe desaparecer porque alguien decidió que «sería cómodo» usar Tab para otra cosa.
 
-![Vista real de presentación de la escena de muestra.](assets/presentacion-real.png)
+## Decisiones con factura
 
-*Vista real de presentación de la escena de muestra.*
+- **Tauri y un visor web:** integración de escritorio y trabajo gráfico sin empaquetar otra distribución completa de Chromium. El coste es probar diferencias del WebView y el límite entre UI y host nativo.
+- **Densidad útil:** escena, árbol y propiedades cerca del trabajo. Necesita jerarquía visual, foco y atajos; meter más botones no cuenta como diseño.
+- **Entrega fuera del visor:** PDF y CSV obligan a conservar unidades, escala y trazabilidad. Un render no sustituye un plano.
 
-![Render real de un piso de muestra incluido en una entrega del proyecto.](assets/piso-muestra.png)
+[Arquitectura del producto](docs/ARQUITECTURA.md) · [Componentes de la experiencia](docs/COMPONENTES.md)
 
-*Render real de un piso de muestra incluido en una entrega del proyecto.*
+## Qué demuestra esto
 
-![Render real de una escena de estudio. Imagen de resultado, no captura de la interfaz.](assets/estudio-muestra.png)
+El componente publicado y sus pruebas se pueden ejecutar sin Atelier. Las capturas documentan el producto. Los registros de entrega son evidencia del autor, no una auditoría independiente. La muestra de teclado no prueba por sí sola el rendimiento 3D, todo el sistema de licencias ni cada exportación.
 
-*Render real de una escena de estudio. Imagen de resultado, no captura de la interfaz.*
+El producto, el motor, las integraciones y las claves permanecen privados. [Origen y límites](docs/PROVENANCE.md) · [Verificación](docs/VERIFICATION.md) · [Portfolio](https://github.com/calinrus-dev/portfolio)
 
-## Decisiones que definen el proyecto
 
-- **Una escena coherente.** La propuesta editada y la presentación comparten una identidad de recursos.
-- **La visita comunica.** Capítulos y puntos de interés ayudan a explicar el espacio.
-- **Límites verificables.** La lectura geométrica no se presenta como certificación normativa.
-
-## Explorar el caso
-
-- [Experiencia y recorrido](docs/EXPERIENCIA.md): intención, interacción y criterios de revisión.
-- [Componentes](docs/COMPONENTES.md): las piezas visibles y el papel de cada una.
-- [Diseño técnico](docs/ARQUITECTURA.md): responsabilidades y compromisos de diseño.
-- [Demostraciones](docs/DEMOSTRACIONES.md): qué enseñan las imágenes y cómo leer la evidencia.
-- [Estado y siguientes pasos](docs/ESTADO.md): alcance actual, comprobaciones y trabajo pendiente.
-
-## Sobre este repositorio
-
-Caso de estudio público de un proyecto con implementación privada. Reúne documentación, diagramas e imágenes seleccionadas. Los detalles del motor, integraciones, datos operativos y código se mantienen en los repositorios privados.
-
-Revisión editorial: 28 de septiembre de 2026. Autor: [Calin Rus](https://github.com/calinrus-dev).
-
-[calinrus.com](https://calinrus.com) · [Instagram @c4linrus](https://www.instagram.com/c4linrus/) · [Todos los proyectos](https://github.com/calinrus-dev/portfolio)
+[Instagram @c4linrus](https://www.instagram.com/c4linrus/) · [LinkedIn / calinrus](https://www.linkedin.com/in/calinrus/)
