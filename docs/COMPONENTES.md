@@ -6,41 +6,41 @@
 
 Lámina conceptual con contenido ficticio. Las piezas de esta página describen la experiencia y sus responsabilidades visibles.
 
-## 01 / Editor espacial
+## 01 / Diseño de espacios
 
-Organización de estancias, objetos y referencias de trabajo.
+Estancias, objetos, referencias a escala y acabados para construir la propuesta.
 
-**En el recorrido:** Construir el espacio.
+**En el recorrido:** Diseñar el espacio.
 
-**Responsabilidad relacionada:** Editor y selección.
+**Responsabilidad relacionada:** Estudio de diseño.
 
-## 02 / Materiales y ambiente
+## 02 / Presentación 3D
 
-Acabados, luz y recursos visuales para construir una propuesta.
+Materiales, iluminación y recorridos con capítulos y puntos de visita.
 
-**En el recorrido:** Definir su ambiente.
+**En el recorrido:** Construir el ambiente.
 
 **Responsabilidad relacionada:** Escena y recursos.
 
-## 03 / Recorridos
+## 03 / Entrega multiformato
 
-Presentación navegable con puntos y capítulos de visita.
+Imágenes, vídeo 1080p, planos PDF a escala y mediciones CSV.
 
-**En el recorrido:** Diseñar el recorrido.
+**En el recorrido:** Recorrer la propuesta.
 
-**Responsabilidad relacionada:** Visor de presentación.
+**Responsabilidad relacionada:** Experiencia de visita.
 
-## 04 / Salidas
+## 04 / Producto bajo licencia
 
-Preparación de fotografías, vídeo y documentos de presentación.
+Aplicación de escritorio 1.0 con emisión y renovación de licencias.
 
-**En el recorrido:** Preparar la presentación.
+**En el recorrido:** Entregar la presentación.
 
-**Responsabilidad relacionada:** Salidas y archivos.
+**Responsabilidad relacionada:** Producción de entregables.
 
 ## Relación entre las piezas
 
-Construir el espacio → Definir su ambiente → Diseñar el recorrido → Preparar la presentación.
+Diseñar el espacio → Construir el ambiente → Recorrer la propuesta → Entregar la presentación.
 
 El recorrido permite discutir jerarquía, navegación y continuidad. La representación se simplifica a propósito y no publica los contratos internos de implementación.
 

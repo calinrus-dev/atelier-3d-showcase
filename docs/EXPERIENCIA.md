@@ -4,31 +4,31 @@
 
 ## Intención
 
-Una idea espacial necesita poder editarse, recorrerse y comunicarse. Atelier 3D conecta esos momentos dentro de un mismo entorno de escritorio.
+Una propuesta espacial necesita resolver tanto el trabajo de diseño como su presentación y entrega. Atelier 3D reúne esos momentos en un estudio de escritorio: construir el espacio, darle ambiente, recorrerlo y preparar material que permita explicarlo.
 
 ## El recorrido
 
-### 1. Construir el espacio
+### 1. Diseñar el espacio
 
-Organización de estancias, objetos y referencias de trabajo.
-
-La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
-
-### 2. Definir su ambiente
-
-Acabados, luz y recursos visuales para construir una propuesta.
+Estancias, objetos, referencias a escala y acabados para construir la propuesta.
 
 La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
 
-### 3. Diseñar el recorrido
+### 2. Construir el ambiente
 
-Presentación navegable con puntos y capítulos de visita.
+Materiales, iluminación y recorridos con capítulos y puntos de visita.
 
 La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
 
-### 4. Preparar la presentación
+### 3. Recorrer la propuesta
 
-Preparación de fotografías, vídeo y documentos de presentación.
+Imágenes, vídeo 1080p, planos PDF a escala y mediciones CSV.
+
+La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
+
+### 4. Entregar la presentación
+
+Aplicación de escritorio 1.0 con emisión y renovación de licencias.
 
 La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
 

@@ -1,30 +1,40 @@
-![Atelier 3D — Diseñar un espacio. Recorrer una idea.](assets/hero.svg)
+![Atelier 3D — Diseña. Recorre. Presenta. Entrega.](assets/hero.svg)
 
 # Atelier 3D
 
-**Diseñar un espacio. Recorrer una idea.**
+**Diseña. Recorre. Presenta. Entrega.**
 
-Un editor de espacios y escenas 3D con materiales, recorridos y salidas de presentación, pensado para pasar de una propuesta a una experiencia navegable.
+Un producto de escritorio para diseñar espacios 3D y convertirlos en experiencias navegables y entregables: imágenes, vídeo, planos PDF a escala y mediciones. La versión 1.0 está terminada y dispone de emisión y renovación de licencias.
 
 **Stack:** TypeScript · React · Rust · Tauri · WebGL  
-**Estado:** Entrega de escritorio 1.0
+**Estado:** Producto de escritorio 1.0 · Disponible bajo licencia
 
 [Portfolio](https://github.com/calinrus-dev/portfolio) · [Experiencia](docs/EXPERIENCIA.md) · [Componentes](docs/COMPONENTES.md) · [Diseño técnico](docs/ARQUITECTURA.md) · [Demostraciones](docs/DEMOSTRACIONES.md) · [Estado](docs/ESTADO.md)
 
 ## El problema que aborda
 
-Una idea espacial necesita poder editarse, recorrerse y comunicarse. Atelier 3D conecta esos momentos dentro de un mismo entorno de escritorio.
+Una propuesta espacial necesita resolver tanto el trabajo de diseño como su presentación y entrega. Atelier 3D reúne esos momentos en un estudio de escritorio: construir el espacio, darle ambiente, recorrerlo y preparar material que permita explicarlo.
 
 ## Qué compone la experiencia
 
-- **Editor espacial.** Organización de estancias, objetos y referencias de trabajo.
-- **Materiales y ambiente.** Acabados, luz y recursos visuales para construir una propuesta.
-- **Recorridos.** Presentación navegable con puntos y capítulos de visita.
-- **Salidas.** Preparación de fotografías, vídeo y documentos de presentación.
+- **Diseño de espacios.** Estancias, objetos, referencias a escala y acabados para construir la propuesta.
+- **Presentación 3D.** Materiales, iluminación y recorridos con capítulos y puntos de visita.
+- **Entrega multiformato.** Imágenes, vídeo 1080p, planos PDF a escala y mediciones CSV.
+- **Producto bajo licencia.** Aplicación de escritorio 1.0 con emisión y renovación de licencias.
 
-![Mapa conceptual de Atelier 3D: Construir el espacio → Definir su ambiente → Diseñar el recorrido → Preparar la presentación.](assets/experiencia.svg)
+![Mapa conceptual de Atelier 3D: Diseñar el espacio → Construir el ambiente → Recorrer la propuesta → Entregar la presentación.](assets/experiencia.svg)
 
 *Lámina explicativa con datos ficticios. Su contenido también está disponible como texto en [Componentes](docs/COMPONENTES.md).*
+
+## Galería real
+
+![Render real de un piso de muestra incluido en una entrega del proyecto.](assets/piso-muestra.png)
+
+*Render real de un piso de muestra incluido en una entrega del proyecto.*
+
+![Render real de una escena de estudio. Imagen de resultado, no captura de la interfaz.](assets/estudio-muestra.png)
+
+*Render real de una escena de estudio. Imagen de resultado, no captura de la interfaz.*
 
 ## Decisiones que definen el proyecto
 

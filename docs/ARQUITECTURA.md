@@ -4,7 +4,7 @@
 
 ## Contexto
 
-Un editor de espacios y escenas 3D con materiales, recorridos y salidas de presentación, pensado para pasar de una propuesta a una experiencia navegable.
+Un producto de escritorio para diseñar espacios 3D y convertirlos en experiencias navegables y entregables: imágenes, vídeo, planos PDF a escala y mediciones. La versión 1.0 está terminada y dispone de emisión y renovación de licencias.
 
 **Tecnologías asociadas al proyecto:** TypeScript · React · Rust · Tauri · WebGL.
 
@@ -14,9 +14,9 @@ Este mapa conceptual organiza la explicación del producto; no representa endpoi
 
 ```mermaid
 flowchart TD
-    A["Editor y selección"] --> B["Escena y recursos"]
-    B --> C["Visor de presentación"]
-    C --> D["Salidas y archivos"]
+    A["Estudio de diseño"] --> B["Escena y recursos"]
+    B --> C["Experiencia de visita"]
+    C --> D["Producción de entregables"]
 ```
 
 ## Una escena coherente
@@ -41,6 +41,6 @@ No se publican cifras de rendimiento sin un ensayo identificado. La evidencia es
 
 ## Qué conviene demostrar después
 
-- Ampliar flujos de edición y presentación.
-- Mejorar evidencia de rendimiento con escenas controladas.
-- Validar experiencias inmersivas en dispositivos concretos.
+- Ampliar el catálogo y los recorridos de edición sobre la versión entregada.
+- Mejorar la experiencia de distribución y soporte del producto.
+- Continuar la validación de escenas y dispositivos adicionales.

@@ -2,12 +2,12 @@
 
 [← Inicio](../README.md)
 
-**Estado publicado:** Entrega de escritorio 1.0.  
+**Estado publicado:** Producto de escritorio 1.0 · Disponible bajo licencia.  
 **Fecha de revisión:** 28 de septiembre de 2026.
 
 ## Qué se ha comprobado
 
-La documentación de entrega 1.0 recoge pruebas de aplicación, navegador y exportaciones de imagen y vídeo en Windows. Son evidencias históricas de la entrega; esta publicación no repitió el conjunto de validaciones ni ensayos con dispositivos XR.
+El propietario confirma la versión terminada y su disponibilidad bajo licencia. La verificación de entrega 1.0 documenta instalación Windows, licencia activa, emisión y renovación, pruebas de aplicación y exportaciones reales de imagen y vídeo. Las imágenes públicas seleccionadas son escenas de muestra existentes. La preview de navegador abierta en esta revisión mostró la interfaz, pero el navegador de revisión no ofreció WebGL 2; no se atribuye ese entorno a una nueva validación del render nativo.
 
 ## Alcance actual
 
@@ -17,9 +17,9 @@ La documentación de entrega 1.0 recoge pruebas de aplicación, navegador y expo
 
 ## Siguientes pasos
 
-- Ampliar flujos de edición y presentación.
-- Mejorar evidencia de rendimiento con escenas controladas.
-- Validar experiencias inmersivas en dispositivos concretos.
+- Ampliar el catálogo y los recorridos de edición sobre la versión entregada.
+- Mejorar la experiencia de distribución y soporte del producto.
+- Continuar la validación de escenas y dispositivos adicionales.
 
 ## Cómo se mantiene este caso
 
