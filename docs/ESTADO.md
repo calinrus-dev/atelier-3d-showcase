@@ -7,7 +7,7 @@
 
 ## Qué se ha comprobado
 
-El propietario confirma la versión terminada y su disponibilidad bajo licencia. La verificación de entrega 1.0 documenta instalación Windows, licencia activa, emisión y renovación, pruebas de aplicación y exportaciones reales de imagen y vídeo. Las imágenes públicas seleccionadas son escenas de muestra existentes. La preview de navegador abierta en esta revisión mostró la interfaz, pero el navegador de revisión no ofreció WebGL 2; no se atribuye ese entorno a una nueva validación del render nativo.
+El propietario confirma la versión terminada y su disponibilidad bajo licencia. La verificación de entrega 1.0 documenta instalación Windows, licencia activa, emisión y renovación, pruebas de aplicación y exportaciones reales de imagen y vídeo. El 28 de septiembre de 2026 se abrió la preview del editor, se importó el salón de ejemplo, se guardó una escena independiente y se abrió su presentación 3D. Las capturas de editor y presentación pertenecen a esa revisión; los renders de estudio y piso proceden de escenas de muestra existentes.
 
 ## Alcance actual
 

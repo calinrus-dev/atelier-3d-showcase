@@ -28,6 +28,14 @@ Una propuesta espacial necesita resolver tanto el trabajo de diseño como su pre
 
 ## Galería real
 
+![Editor real de Atelier 3D con el salón de muestra, revisado el 28 de septiembre de 2026.](assets/editor-real.png)
+
+*Editor real de Atelier 3D con el salón de muestra, revisado el 28 de septiembre de 2026.*
+
+![Vista real de presentación de la escena de muestra.](assets/presentacion-real.png)
+
+*Vista real de presentación de la escena de muestra.*
+
 ![Render real de un piso de muestra incluido en una entrega del proyecto.](assets/piso-muestra.png)
 
 *Render real de un piso de muestra incluido en una entrega del proyecto.*

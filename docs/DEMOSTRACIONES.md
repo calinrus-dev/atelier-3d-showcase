@@ -10,6 +10,14 @@ La entrega 1.0 documenta recorridos y exportaciones nativas en Windows. Se muest
 
 ## Capturas reales
 
+![Editor real de Atelier 3D con el salón de muestra, revisado el 28 de septiembre de 2026.](../assets/editor-real.png)
+
+*Editor real de Atelier 3D con el salón de muestra, revisado el 28 de septiembre de 2026.*
+
+![Vista real de presentación de la escena de muestra.](../assets/presentacion-real.png)
+
+*Vista real de presentación de la escena de muestra.*
+
 ![Render real de un piso de muestra incluido en una entrega del proyecto.](../assets/piso-muestra.png)
 
 *Render real de un piso de muestra incluido en una entrega del proyecto.*
@@ -35,6 +43,6 @@ La ilustración reúne las piezas y sus relaciones. Sus estados, textos de muest
 
 ## Evidencia disponible
 
-El propietario confirma la versión terminada y su disponibilidad bajo licencia. La verificación de entrega 1.0 documenta instalación Windows, licencia activa, emisión y renovación, pruebas de aplicación y exportaciones reales de imagen y vídeo. Las imágenes públicas seleccionadas son escenas de muestra existentes. La preview de navegador abierta en esta revisión mostró la interfaz, pero el navegador de revisión no ofreció WebGL 2; no se atribuye ese entorno a una nueva validación del render nativo.
+El propietario confirma la versión terminada y su disponibilidad bajo licencia. La verificación de entrega 1.0 documenta instalación Windows, licencia activa, emisión y renovación, pruebas de aplicación y exportaciones reales de imagen y vídeo. El 28 de septiembre de 2026 se abrió la preview del editor, se importó el salón de ejemplo, se guardó una escena independiente y se abrió su presentación 3D. Las capturas de editor y presentación pertenecen a esa revisión; los renders de estudio y piso proceden de escenas de muestra existentes.
 
 [Alcance y próximos pasos](ESTADO.md)
