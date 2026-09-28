@@ -1,5 +1,8 @@
 # Atelier 3D / Diseñar. Recorrer. Entregar.
 
+**[Descargar Atelier 3D 1.0 para Windows x64](https://github.com/calinrus-dev/atelier-3d-showcase/releases/tag/v1.0.0)** · [Solicitar licencia de evaluación y participar en QA](https://www.linkedin.com/in/calinrus-dev/). El instalador incluye el producto; la licencia se emite por mensaje privado. La página de descarga incluye SHA-256 y el estado de firma.
+
+
 **Mi producto principal. Aplicación de escritorio 1.0, disponible bajo licencia.** Un espacio no termina cuando queda bonito en el visor: hay que recorrerlo, presentarlo, medirlo y entregarlo. Atelier reúne ese recorrido en una misma herramienta.
 
 **Tauri · Rust · React · TypeScript · WebGL**
@@ -43,4 +46,4 @@ El componente publicado y sus pruebas se pueden ejecutar sin Atelier. Las captur
 El producto, el motor, las integraciones y las claves permanecen privados. [Origen y límites](docs/PROVENANCE.md) · [Verificación](docs/VERIFICATION.md) · [Portfolio](https://github.com/calinrus-dev/portfolio)
 
 
-[Instagram @c4linrus](https://www.instagram.com/c4linrus/) · [LinkedIn / calinrus](https://www.linkedin.com/in/calinrus/)
+[Instagram @c4linrus](https://www.instagram.com/c4linrus/) · [LinkedIn / calinrus](https://www.linkedin.com/in/calinrus-dev/)
